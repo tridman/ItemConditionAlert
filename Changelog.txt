@@ -1,0 +1,91 @@
+1.5.3
+- Updated LibAddonMenu to 2.0r13
+
+1.5.2
+- Updated LibAddonMenu to 2.0r8
+- Updated API Version to 100007
+
+1.5.1
+- Added option to configure The Alpha value in normal "movement" UI mode (when reticle is visible)
+- Updated LibAddonMenu to 2.0r6
+
+1.5.0
+- Thresholds are now configurable
+- Updated LibAddonMenu to 1.0r8
+- New layout surrounding the target reticle
+- Fixed several small glitches
+
+V1.4.2
+- Increased API Version to 10004
+
+V1.4.1
+- Fixed errors on slash commands.
+
+V1.4.0
+!!!! Configuration Version had to be updated. Addon will reset to Defaults after update !!!
+- Included functionality of WeaponChargeAlert (thanks to ingeniousclown)
+- Added new Layouts
+
+
+V1.3.1
+- Updated Lib Addon Menu to 1.0r7
+- Translated the Settings and Command description to german. (If someone can do the french translation, feel free to contact me)
+
+
+V1.3.0
+- Refactoring
+- Added command to show the addon within menus
+- Added keybindings for
+----- Toggeling visibility of undamaged items independent of the configured threshold
+----- Showing the addon in menus
+
+V1.2.5
+- Fixed a bug which prevented the procentual values from updating correctly
+
+V1.2.4
+- Reduced system load by removing the cyclic update and replacing it with an event triggered update
+- Addon will hide when game menu is opened.
+
+V1.2.3
+- Added option to display the current durability in percent within the alarm icons
+- Addon will now also hide whenever  one of the following HUDs is visible:
+----- Main Category Bar (the one at the top of the screen allowing acces to most other HUDs)
+----- Player Bank
+----- Guild Bank
+----- Guild Store
+
+V1.2.2
+- If the "always visible" option is turned off, the items will stay invisible even if the addon is unlocked.
+- Instead a Background is now visible when the Addon is Unlocked to mark its position and size.
+- Changed the slash commands to "/ica <command>" format. Type "/ica ?" to see all available commands.
+
+V1.2.1
+- Fixed a bug, that prevented "DAMAGED"-items from showing correctly. 
+- Added an option to configure the alpha value of the addon when the UI is in cursor mode
+
+
+V1.2.0
+!!!
+- Change config version to 2! Thus all settings from previous releases will be overwritten with defaults. (sorry for this)
+!!!
+- The icons will stay in place on rescaling now
+- Added option to reset the Addon to its default values
+- Added option to select the threshold of damage for wich items shall be shown
+- Corrected the alpha value in mouse mode to make the icons more visible (will be configurable in the future)
+- Addon will now completely hide if one of the following HUDs is visible:
+----- Worldmap
+----- Crafting
+----- NSC Interaction
+
+V1.1.0
+- More Cleanup
+- Possibility of scaling the Icons to better fit the UI
+
+V1.0.1
+- Cleanup and bugfixing
+- Added compact Layout
+- Removed slashcommands for layout switching
+- Introduced slashcommand to toggle visibility
+
+V1.0
+- Initial release

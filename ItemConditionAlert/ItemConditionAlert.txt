@@ -1,0 +1,43 @@
+## Title: Item Conditional Alert
+## Description: Displays your items when their durability or charge is low
+## APIVersion: 100007
+## Version: 1.5.2
+## SavedVariables: ICA_SavedVariables
+## OptionalDependsOn: LibAddonMenu-2.0, LibStub
+
+lib\LibStub\LibStub.lua
+lib\LibAddonMenu-2.0\LibAddonMenu-2.0.lua
+lib\LibAddonMenu-2.0\controls\panel.lua
+lib\LibAddonMenu-2.0\controls\submenu.lua
+lib\LibAddonMenu-2.0\controls\button.lua
+lib\LibAddonMenu-2.0\controls\checkbox.lua
+lib\LibAddonMenu-2.0\controls\colorpicker.lua
+lib\LibAddonMenu-2.0\controls\custom.lua
+lib\LibAddonMenu-2.0\controls\description.lua
+lib\LibAddonMenu-2.0\controls\dropdown.lua
+lib\LibAddonMenu-2.0\controls\editbox.lua
+lib\LibAddonMenu-2.0\controls\header.lua
+lib\LibAddonMenu-2.0\controls\slider.lua
+lib\LibAddonMenu-2.0\controls\texture.lua
+
+ItemConditionAlert.lua
+
+\languages\en.lua
+\languages\de.lua
+\languages\fr.lua
+\languages\locale.lua
+
+modules\Drawer.lua
+modules\Layouter.lua
+modules\Main.lua
+modules\SavedVars.lua
+modules\Settings.lua
+modules\SlotItem.lua
+
+ItemConditionAlert.xml
+
+Init.lua
+
+
+bindings\Bindings.lua
+bindings\Bindings.xml
