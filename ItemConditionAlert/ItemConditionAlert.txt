@@ -1,7 +1,7 @@
-## Title: Item Conditional Alert
-## Description: Displays your items when their durability or charge is low
-## APIVersion: 100007
-## Version: 1.5.2
+## Title: Item Condition Alert
+## Description: Alerts about items with low durability or charge
+## APIVersion: 100008
+## Version: 1.5.4
 ## SavedVariables: ICA_SavedVariables
 ## OptionalDependsOn: LibAddonMenu-2.0, LibStub
 
