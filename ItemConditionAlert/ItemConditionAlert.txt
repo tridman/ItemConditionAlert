@@ -1,7 +1,7 @@
 ## Title: Item Condition Alert
 ## Description: Alerts about items with low durability or charge
-## APIVersion: 100008
-## Version: 1.5.4
+## APIVersion: 100009
+## Version: 1.5.5
 ## SavedVariables: ICA_SavedVariables
 ## OptionalDependsOn: LibAddonMenu-2.0, LibStub
 

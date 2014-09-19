@@ -10,7 +10,7 @@ Author:   @tridman
 
 ItemConditionAlert                      = {}
 ItemConditionAlert.Name                 = "ItemConditionAlert"
-ItemConditionAlert.Version              = "1.5.3"
+ItemConditionAlert.Version              = "1.5.4"
 ItemConditionAlert.Command              = "/ica"
 
 ItemConditionAlert.sv                   = {}
